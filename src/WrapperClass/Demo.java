@@ -11,6 +11,10 @@ public class Demo {
         //Wrapper class to primitive data type
         System.out.println("This is called Auto-unboxing : "+num2);
 
+        String s = "12";
+        int result = Integer.parseInt(s);
+        System.out.println(result*9);
+        //String to int using ParseInt()
 
     }
 }
