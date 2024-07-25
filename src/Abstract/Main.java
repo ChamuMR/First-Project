@@ -6,6 +6,5 @@ public class Main {
         c.playMusic();
         c.fly();
         c.drive();
-
     }
 }
