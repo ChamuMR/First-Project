@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14594f02-235e-4754-8784-d387464d83ff" name="Changes" comment="Inner Class">
-      <change afterPath="$PROJECT_DIR$/src/Abstract1/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract1/Desktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract1/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract1/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnonymousInnerClass/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnonymousInnerClass/Main.java" afterDir="false" />
+    <list default="true" id="14594f02-235e-4754-8784-d387464d83ff" name="Changes" comment="Interface">
+      <change afterPath="$PROJECT_DIR$/src/Interface1/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface1/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interface1/Y.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,6 +62,7 @@
     "Application.Demo.executor": "Run",
     "Application.FinalVariableClassMethod.executor": "Run",
     "Application.InnerClass.Main.executor": "Run",
+    "Application.Interface.Main.executor": "Run",
     "Application.K.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ObjectClass.A.executor": "Run",
@@ -91,7 +91,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Abstract1.Main">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="Abstract1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Abstract1.Main" />
       <module name="JavaFP" />
@@ -105,38 +105,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymousInnerClass.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousInnerClass.Main" />
-      <module name="JavaFP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AnonymousInnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnonymousInnerClass.Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousInnerClass.Main" />
-      <module name="JavaFP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AnonymousInnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AnonymousInnerClass.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonymousInnerClass.Main" />
       <module name="JavaFP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AnonymousInnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interface1.Demo" />
+      <module name="JavaFP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interface1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interface.Main" />
+      <module name="JavaFP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Interface.Main" />
         <item itemvalue="Application.Abstract1.Main" />
         <item itemvalue="Application.AnonymousInnerClass.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.AnonymousInnerClass.Main (3)" />
-        <item itemvalue="Application.AnonymousInnerClass.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +186,7 @@
       <workItem from="1721755298932" duration="3918000" />
       <workItem from="1721800065414" duration="1687000" />
       <workItem from="1721810664165" duration="10997000" />
-      <workItem from="1721883798449" duration="6302000" />
+      <workItem from="1721883798449" duration="8814000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <option name="closed" value="true" />
@@ -308,7 +308,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721885689876</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Abstract 1">
+      <option name="closed" value="true" />
+      <created>1721890477598</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721890477598</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Interface">
+      <option name="closed" value="true" />
+      <created>1721891396031</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721891396031</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +353,9 @@
     <MESSAGE value="Auto-Boxing and AutoUnboxing" />
     <MESSAGE value="Abstraction" />
     <MESSAGE value="Inner Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inner Class" />
+    <MESSAGE value="Abstract 1" />
+    <MESSAGE value="Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
